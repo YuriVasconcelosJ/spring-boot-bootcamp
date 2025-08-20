@@ -9,7 +9,7 @@ import jakarta.persistence.Table;
 public class Beloging {
 
     @EmbeddedId
-    private BelogingPK id = new BelogingPK();
+    private BelongingPK id = new BelongingPK();
 
     private Integer position;
 
@@ -22,11 +22,11 @@ public class Beloging {
         this.position = position;
     }
 
-    public BelogingPK getId() {
+    public BelongingPK getId() {
         return id;
     }
 
-    public void setId(BelogingPK id) {
+    public void setId(BelongingPK id) {
         this.id = id;
     }
 
